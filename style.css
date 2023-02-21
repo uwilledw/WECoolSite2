@@ -8,6 +8,20 @@ border: solid black;
 main {
 padding: 4em;
 }
+footer{
+    background-color: blue;
+    padding: 2em;
+}
+.lorem {
+    width: 700px;
+}
+.test-img{
+    width: 100%;
+}
+.test-img-div{
+    width: 25vh;
+    margin: 4em;
+}
 
 /* Utils */
 .d-flex{
@@ -18,6 +32,9 @@ padding: 4em;
 }
 .justify-content-evenly {
 justify-content: space-evenly;
+}
+.justify-content-end{
+    justify-content: end;
 }
 .align-items-center {
     align-items: flex-start;
