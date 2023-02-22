@@ -1,6 +1,6 @@
 header {
-    background-color: aqua;
-    padding: 1em;
+    background-color: blue;
+    font-size: 3ch;
 }
 .tborder {
 border: solid black;
@@ -10,7 +10,7 @@ padding: 4em;
 }
 footer{
     background-color: blue;
-    padding: 2em;
+    padding: 4em;
 }
 .lorem {
     width: 700px;
@@ -18,9 +18,24 @@ footer{
 .test-img{
     width: 100%;
 }
-.test-img-div{
+.right-main-div{
     width: 25vh;
     margin: 4em;
+}
+.left-main-div{
+    width: 80vh;
+}
+.another-article{
+    padding: .5em;
+}
+.font-size{
+    font-size: large;
+}
+.top-border{
+    border-top: 2em rgb(140, 213, 233) solid;
+}
+.b-margin{
+    margin-bottom: .1em;
 }
 
 /* Utils */
@@ -41,4 +56,10 @@ justify-content: space-evenly;
 }
 .p-2{
     padding: 2em;
+}
+.m-0{
+    margin: 0%;
+}
+.top-m-3{
+    margin-top: 3em;
 }
